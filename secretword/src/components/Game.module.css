@@ -1,0 +1,47 @@
+.title{
+    font-size: 3.5rem;
+}
+
+.points{
+    font-weight: bold;
+}
+
+.tip{
+    color: yellow;
+}
+
+.wordContainer{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 1.25rem solid yellow;
+    display: flex;
+}
+
+.letter, .blankSquare {
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid ;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+}
+
+.letterContainer{
+    margin-bottom: 1.2rem;
+}
+
+.letterContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letterContainer input {
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    text-align: center;
+    margin-right:1rem;
+}
